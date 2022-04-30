@@ -1,0 +1,19 @@
+.pinkbg {
+    background-color: rgb(255, 119, 141);
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+#blu {
+    color: rgb(0, 81, 255);
+    font-size: 36px; 
+}
+
+.fnt {
+    font-size: 24px;
+}
+
+#greenbg {
+    background-color: rgb(87, 255, 87);
+    font-size: 24px;
+    font-weight: 700;
+}
