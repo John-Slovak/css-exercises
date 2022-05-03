@@ -17,9 +17,12 @@ body {
 
 .modal {
   background: white;
-  width: 480px;
+  width: 580px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+  display: flex;
+  gap: 16px;
 }
 
 .icon {
@@ -63,4 +66,32 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.left {
+  margin-right: 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+}
+
+.top {
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-right: 10px;
 }
